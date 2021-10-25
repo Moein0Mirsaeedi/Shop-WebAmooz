@@ -1,0 +1,92 @@
+@font-face {
+    font-family: vazir-medium;
+    src: url(../Font/Vazir-Medium-UI.ttf);
+}
+
+@font-face {
+    font-family: vazir-regolar;
+    src: url(../Font/Vazir-Regular-UI.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d5ebf7;
+    height: 200vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    font-family: vazir-regolar;
+}
+
+header{
+    background-color: white;
+    width: 82%;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+.margin111{
+    margin-left: 40px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav1 a{
+    color: #6C757D;
+}
+
+.user-1{
+    display: flex;
+}
+
+.user-1 ion-icon{
+    font-size: 24px;
+    color: #6C757D;
+}
+
+.user-1 div{
+    background-color: #F4F4F4;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.buy{
+    margin-left: 10px;
+}
+
+.number-buy{
+    position: absolute;
+    text-decoration: none;
+    margin-top: -20px;
+    color: white;
+    background-color: #46b1ef;
+    border-radius: 50px;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-family: vazir-regolar;
+}
