@@ -38,16 +38,14 @@ header {
   direction: rtl;
 }
 
-.navbar{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .nav1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.navbar{
+  width: 100%;
 }
 
 nav li {
