@@ -1,16 +1,6 @@
 @font-face {
-  font-family: vazir-medium;
-  src: url(../Font/Vazir-Medium-UI.ttf);
-}
-
-@font-face {
-  font-family: vazir-regolar;
-  src: url(../Font/Vazir-Regular-UI.ttf);
-}
-
-* {
-  margin: 0;
-  padding: 0;
+  font-family: vazir;
+  src: url(../Font/Vazir-Regular.ttf);
 }
 
 body {
@@ -18,80 +8,67 @@ body {
   height: 200vh;
 }
 
-.head {
+.my-header {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 140px;
-  font-family: vazir-regolar;
 }
 
-header {
+nav {
+  margin-top: 20px;
+  font-family: vazir;
   background-color: white;
   width: 88%;
+  border-radius: 4px;
   height: 100px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  direction: rtl;
 }
 
-.nav1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar{
-  width: 100%;
-}
-
-nav li {
-  list-style: none;
-  display: inline;
-}
-
-.margin111 {
-  margin-left: 40px;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-.nav1 a {
+.navbar-nav li a {
   color: #6c757d;
+  font-size: 15px;
 }
 
-
-.user-1 {
-  display: flex;
+.icons-menu a ion-icon {
+  color: black;
+  font-size: 20px;
 }
 
-.user-1 ion-icon {
-  font-size: 24px;
-  color: #6c757d;
-}
-
-.user-1 div {
-  background-color: #f4f4f4;
-  padding: 9px;
-  border-radius: 4px;
-}
-
-.buy {
-  margin-left: 15px;
+.icons-menu a ion-icon {
+  padding: 12px 12px 8px 12px;
+  background-color: #f1f1f1;
 }
 
 .number-buy {
-  position: absolute;
-  text-decoration: none;
-  margin-top: -20px;
   color: white;
   background-color: #46b1ef;
   border-radius: 50px;
-  padding: 0px 6px;
+  position: relative;
+  z-index: 100;
+  top: 1%;
+  left: 1%;
+  padding: 1px 5px 0px 5px;
   font-size: 12px;
+}
+
+.icon-menu-none {
+  font-size: 20px;
+  background-color: #f1f1f1;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 720px) {
+  .navbar-collapse {
+    background-color: white;
+    margin-top: 25px;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .navbar-nav {
+    padding-right: 0;
+  }
+
+  .icon-menu a {
+    margin-right: 40px;
+  }
 }
