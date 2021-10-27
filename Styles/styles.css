@@ -19,12 +19,16 @@ body {
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 21px;
   font-family: vazir;
   background-color: white;
-  width: 88%;
+  width: 98%;
   border-radius: 4px;
   height: 100px;
+}
+
+nav ul {
+  padding: 0;
 }
 
 .navbar-nav li a {
@@ -104,28 +108,37 @@ nav {
 
 .my-text-header {
   display: flex;
-    text-align: center;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 63vh;
+  height: 66vh;
 }
 
-.my-search{
+.my-search {
   height: 65px;
   border-radius: 30px;
+  border: none;
+  font-family: vazir;
 }
 
-.my-form1{
-  width: 53%;
+.my-form1 {
+  width: 58%;
   height: max-content;
+  border: none;
 }
 
-.my-btn-search ion-icon{
- font-size: 22px;
- background-color: #46B1EF;
- padding: 10px;
- border-radius: 50%;
- color: white;
- box-shadow: #DAF1F8 0px 0px 0px 5px;
+.my-btn-search ion-icon {
+  font-size: 22px;
+  background-color: #46b1ef;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  box-shadow: #daf1f8 0px 0px 0px 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .my-form1 {
+  width: 100%;
+}
 }
