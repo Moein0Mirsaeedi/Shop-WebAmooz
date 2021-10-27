@@ -139,6 +139,6 @@ nav ul {
 
 @media screen and (max-width: 767px) {
   .my-form1 {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
