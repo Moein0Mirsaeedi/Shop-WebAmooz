@@ -31,6 +31,15 @@ nav ul {
   padding: 0;
 }
 
+.navbar-nav li:hover{
+  background-color: rgb(247, 247, 247);
+  border-radius: 4px;
+}
+
+.navbar-nav li{
+  transition: all 200ms;
+}
+
 .navbar-nav li a {
   color: #6c757d;
   font-size: 15px;
@@ -42,20 +51,14 @@ nav ul {
 }
 
 .icons-menu a ion-icon {
-  padding: 12px 12px 8px 12px;
+  padding: 10px 12px 12px 12px;
   background-color: #f1f1f1;
 }
 
-.number-buy {
-  color: white;
-  background-color: #46b1ef;
-  border-radius: 50px;
-  position: relative;
-  z-index: 100;
-  top: 1%;
-  left: 1%;
-  padding: 1px 5px 0px 5px;
-  font-size: 12px;
+.icons-menu a ion-icon:hover {
+  border-bottom: rgb(214, 214, 214) 3px solid;
+  border-top: rgb(214, 214, 214) 3px solid;
+    padding: 7px 12px 9px 12px;
 }
 
 .icon-menu-none {
