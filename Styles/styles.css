@@ -10,7 +10,7 @@
 
 body {
   background-color: #d5ebf7;
-  height: 200vh;
+  height: 400vh;
 }
 
 .my-navbar {
@@ -144,4 +144,17 @@ nav ul {
   .my-form1 {
     width: 100%;
   }
+}
+
+.carousel-inner div img{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 }
