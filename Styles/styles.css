@@ -8,6 +8,11 @@
   src: url(../Font/Vazir-Bold-UI.ttf);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #d5ebf7;
   height: 400vh;
@@ -282,4 +287,41 @@ nav ul {
 
 .img-sell .row .col-12 a img{
   width: 100%;
+}
+
+.my-info-footer{
+  background-color: #EDF2F3;
+}
+
+.my-info-footer img{
+  width: 80px;
+}
+
+.p-tel p{
+ font-size: 17px;
+}
+
+.p-tel{
+  display: flex;
+  align-items: center;
+}
+
+.my-more-footer{
+  background-color: white;
+}
+
+.copyright-footer{
+  background-color: #46B1EF;
+}
+
+footer{
+  font-family: vazir;
+}
+
+.text-footer-info{
+  padding: 0 250px;
+}
+
+.text-footer-info p{
+  font-size: 14px;
 }
