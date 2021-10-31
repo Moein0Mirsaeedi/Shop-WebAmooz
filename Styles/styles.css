@@ -8,7 +8,7 @@
   src: url(../Font/Vazir-Bold-UI.ttf);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -285,43 +285,76 @@ nav ul {
   box-shadow: #bebebe 0px 0px 20px -5px;
 }
 
-.img-sell .row .col-12 a img{
+.img-sell .row .col-12 a img {
   width: 100%;
 }
 
-.my-info-footer{
-  background-color: #EDF2F3;
+.my-info-footer {
+  background-color: #edf2f3;
 }
 
-.my-info-footer img{
+.my-info-footer img {
   width: 80px;
 }
 
-.p-tel p{
- font-size: 17px;
+.p-tel p {
+  font-size: 17px;
 }
 
-.p-tel{
+.p-tel {
   display: flex;
   align-items: center;
 }
 
-.my-more-footer{
+.my-more-footer {
   background-color: white;
 }
 
-.copyright-footer{
-  background-color: #46B1EF;
+.copyright-footer {
+  background-color: #46b1ef;
 }
 
-footer{
+footer {
   font-family: vazir;
 }
 
-.text-footer-info{
-  padding: 0 250px;
+.text-footer-info p {
+  padding: 0 100px;
 }
 
-.text-footer-info p{
+.text-footer-info p {
   font-size: 14px;
+}
+
+.row-footer {
+  flex-direction: reverse;
+}
+
+.text-info1 img {
+  margin: 0 0;
+}
+
+@media screen and (max-width: 750px) {
+  .text-footer-info p {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .row-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-info1 img {
+    margin: 0 auto;
+  }
+  .text-info {
+    text-align: center;
+  }
+  .p-tel {
+    display: block;
+    text-align: center;
+  }
 }
