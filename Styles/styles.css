@@ -15,7 +15,7 @@
 
 body {
   background-color: #d5ebf7;
-  height: 400vh;
+  height: max-content;
 }
 
 .header__shape-inner {
